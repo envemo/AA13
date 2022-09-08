@@ -1,6 +1,7 @@
 def date = new Date()
 
 pipeline {
+	agent any
 	stages {
 		stage ('HolaMundo') {
 			steps {
