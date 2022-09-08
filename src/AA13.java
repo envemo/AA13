@@ -126,6 +126,7 @@ public class AA13 {
 			lineas.add("def date = new Date()");
 			lineas.add("");
 			lineas.add("pipeline {");
+			lineas.add("	agent any");
 			lineas.add("	stages {");
 			lineas.add("		stage ('HolaMundo') {");
 			lineas.add("			steps {");
