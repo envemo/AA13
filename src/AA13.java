@@ -120,7 +120,7 @@ public class AA13 {
 		}
 		try
 		{
-			String nombreArchivo = "Jetkinsfile";
+			String nombreArchivo = "Jenkinsfile";
 			Path file = Paths.get(nombreArchivo);
 			lineas = new ArrayList<String>();
 			lineas.add("def date = new Date()");
