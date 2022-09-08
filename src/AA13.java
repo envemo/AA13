@@ -126,9 +126,11 @@ public class AA13 {
 			lineas.add("def date = new Date()");
 			lineas.add("");
 			lineas.add("pipeline {");
-			lineas.add("	stage ('HolaMundo') {");
-			lineas.add("		steps {");
-			lineas.add("			echo \"Hola Mundo! EL día de hoy es elDia \" + date.format('dd-MM-yyyy') + \". Este curso me hizo programar mas de lo que me hubiese gustado\"");
+			lineas.add("	stages {");
+			lineas.add("		stage ('HolaMundo') {");
+			lineas.add("			steps {");
+			lineas.add("				echo \"Hola Mundo! EL día de hoy es elDia \" + date.format('dd-MM-yyyy') + \". Este curso me hizo programar mas de lo que me hubiese gustado\"");
+			lineas.add("			}");
 			lineas.add("		}");
 			lineas.add("	}");
 			lineas.add("}");
